@@ -42,6 +42,17 @@ Technologies Used
 - Librosa
 - Matplotlib
 
+Dataset
+
+Audio data was derived from AudioSet.
+
+Selected subsets:
+
+- Balanced Training Set
+- Evaluation Set
+
+These provided labelled real-world audio events for benchmarking.
+
 ## System Architecture
 
 Pipeline:
