@@ -33,6 +33,15 @@ The system was designed to:
 
 ---
 
+Technologies Used
+- Python
+- Google Colab
+- YOLOv8
+- TensorFlow
+- OpenCV
+- Librosa
+- Matplotlib
+
 ## System Architecture
 
 Pipeline:
