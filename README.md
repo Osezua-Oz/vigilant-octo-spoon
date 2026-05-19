@@ -1,1 +1,53 @@
 # vigilant-octo-spoon
+
+# Multimodal Crime Scene Video Summarization using Audio-Visual Fusion
+
+## Overview
+This project was developed as part of my MSc Artificial Intelligence coursework and focuses on **automated crime scene video summarization** using a **multimodal fusion approach** combining **audio** and **visual** information.
+
+Traditional surveillance review relies heavily on manual inspection of lengthy video footage, which is time-consuming and inefficient. This project addresses that problem by automatically identifying and extracting important video segments using:
+
+- **Audio event detection** (e.g., gunshots, sirens, screams, alarms)
+- **Visual object detection and tracking** (e.g., people, vehicles, hazardous scenes)
+
+The result is a concise summary video that preserves critical events while significantly reducing review time.
+
+---
+
+## Problem Statement
+Security personnel often need to manually review hours of surveillance footage to identify important incidents.
+
+This project aims to:
+- reduce manual review time,
+- improve surveillance efficiency,
+- and support faster incident response through automated summarization.
+
+---
+
+## Project Objectives
+The system was designed to:
+- detect high-risk audio events,
+- identify visually important objects and scenes,
+- fuse audio and visual signals,
+- and generate a summarized version of the original surveillance footage.
+
+---
+
+## System Architecture
+
+Pipeline:
+
+```text
+Input Video
+   ↓
+Audio Extraction
+   ↓
+Audio Analysis (YAMNet)
+   ↓
+Visual Analysis (YOLOv8)
+   ↓
+Multimodal Fusion
+   ↓
+Importance Scoring
+   ↓
+Video Summary Generation
