@@ -75,3 +75,12 @@ Multimodal Fusion
 Importance Scoring
    ↓
 Video Summary Generation
+```
+
+Future Improvements
+
+Potential future work includes:
+
+- testing on larger real-world CCTV datasets
+- transformer-based multimodal fusion
+- real-time streaming support
