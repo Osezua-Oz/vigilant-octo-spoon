@@ -2,6 +2,10 @@
 
 # Multimodal Crime Scene Video Summarization using Audio-Visual Fusion
 
+Example Summarized Videos: https://canva.link/8zqvgo44qoobdnx
+<img width="714" height="534" alt="image" src="https://github.com/user-attachments/assets/359c89eb-7f11-48c7-8a4d-51f7e9872191" />
+
+
 ## Overview
 This project was developed as part of my MSc Artificial Intelligence coursework and focuses on **automated crime scene video summarization** using a **multimodal fusion approach** combining **audio** and **visual** information.
 
